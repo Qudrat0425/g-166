@@ -20,7 +20,7 @@
 // mean(4,6)
 
 // //4
-// function triangle(a,b,c,h) {
+// function triangle(a,b,c,h){
 //   let S= 1/2*a*h
 //   let P= a+b+c
 //   console.log(S);
@@ -93,7 +93,6 @@
 //     case 10:console.log(narx*i); break;
 //   }
 // }
-
 //5for
 // let narx=30
 // for(let i=0; i<=1; i=i+0.1){
@@ -116,11 +115,11 @@
 // for(let i=1.2; i<=2; i=i+0.2){
 //   let a=+i.toFixed(1);
 //   switch(a){
-//     case 1.2:console.log(narx*a); break;
-//     case 1.4:console.log(narx*a); break;
-//     case 1.6:console.log(narx*a); break;
-//     case 1.8:console.log(narx*a); break;
-//     case 2:console.log(narx*a); break;
+//    case 1.2:console.log(narx*a); break;
+//    case 1.4:console.log(narx*a); break;
+//    case 1.6:console.log(narx*a); break;
+//    case 1.8:console.log(narx*a); break;
+//    case 2:console.log(narx*a); break;
 //   }
 // }
 
@@ -128,8 +127,44 @@
 // let b= 10
 // let c=a-b
 // for(let i=b; i<20; i++){
-//   console.log(i);
-//   let all=
+// console.log(i);
 // }
 
 //array
+// indexOf
+// lastIndexOf
+// push 
+// concat
+// pop
+// shift
+// unshift
+// slice
+// splice
+// join
+// toString
+//lengh 
+//reverse
+//sort
+
+// let arr =['Bobur','Qudrat','nodirbek']
+// // arr.sort()
+// console.log(arr.sort((a,b) => a.toLowerCase().localeCompare(b.toLowerCase())));
+
+// let a=0
+// let arr= [1,2,3,4,5,6,7]
+// for(let v of arr){
+//     a=a+v
+//     console.log(a);
+// }
+ 
+// let arr=[1,2,3,4,5,6,7]
+// for(let v of arr){
+//     if(v%2 !==0){
+//         console.log(v);
+//     }
+// }
+let a=2
+let arr =[1,2,3,4,5,6,7]
+for (let v of arr){
+    console.log(a);
+}
