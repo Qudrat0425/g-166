@@ -162,9 +162,40 @@
 //     if(v%2 !==0){
 //         console.log(v);
 //     }
+// // }
+// let a=10
+// let arr =[]
+// for(let i=1; i<=a; i++){
+//     let b=Math.pow(2,i)
+//     arr.push(b)
 // }
-let a=2
-let arr =[1,2,3,4,5,6,7]
-for (let v of arr){
-    console.log(a);
-}
+// console.log(arr);
+
+
+// map 
+// forEach 
+// filter
+// some 
+// every  
+// function setAlarm(employed, vacation){
+//     if(employed==1 && vacation==1){
+//         console.log(false);
+//     }
+//     else if(employed!==1 && vacation==1){
+//         console.log(false);
+//     }
+//     else if(employed!==1 && vacation!==1){
+//         console.log(false);
+//     }
+//     else(tr)
+// }
+// setAlarm(true,false)
+
+// var list= [4,6,2,1,9,63,-134,566]
+// var min =function(list){
+//     var a=list.Math.min()
+//     console.log(a);
+// }
+
+    
+
